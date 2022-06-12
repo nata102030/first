@@ -1,0 +1,44 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+       /* min-height: 100vh; /* создает вертикальную полосу прокрутки*/
+      /*  background-size: cover; /*  Масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока*/
+      /*  position: relative; /*Положение элемента устанавливается относительно его исходного места*/
+      /*  background-position: center;
+        align-content: center; }*/
+    }
+
+    .img-header{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        background-size: cover;
+        align-self:center;
+        justify-self:end;
+       /* justify-items:right;
+        align-items:center;*/
+
+    }
+
+    .btn {
+        display: inline-block;
+        border: none;
+        color: black;
+        text-decoration: none;
+       /* padding: 15px 50px;*/
+        font-size: 18px;
+        letter-spacing: 1.5;
+        text-align: center;
+        vertical-align:middle;
+      /*  width: 200px;*/
+       }
+
+       .btn-5 {
+        border: 1px solid black; 
+        text-align: center;
+       }
